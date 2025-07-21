@@ -65,8 +65,8 @@ body {
   font-weight: var(--fw-thin);
 }
 
-.heading-bold{
-    font-weight: var(--fw-bold);
+.heading-bold {
+  font-weight: var(--fw-bold);
 }
 
 .four-cards {
@@ -93,12 +93,15 @@ img {
 .card:nth-child(1) {
   border-top: 0.4rem solid var(--cyan);
 }
+
 .card:nth-child(2) {
   border-top: 0.4rem solid var(--red);
 }
+
 .card:nth-child(3) {
   border-top: 0.4rem solid var(--orange);
 }
+
 .card:nth-child(4) {
   border-top: 0.4rem solid var(--blue);
 }
@@ -125,12 +128,15 @@ img {
   .card:nth-child(1) {
     grid-area: card_1;
   }
+
   .card:nth-child(2) {
     grid-area: card_2;
   }
+
   .card:nth-child(3) {
     grid-area: card_3;
   }
+
   .card:nth-child(4) {
     grid-area: card_4;
   }
