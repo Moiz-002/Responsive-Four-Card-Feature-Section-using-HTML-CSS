@@ -65,6 +65,10 @@ body {
   font-weight: var(--fw-thin);
 }
 
+.heading-bold{
+    font-weight: var(--fw-bold);
+}
+
 .four-cards {
   display: grid;
   gap: 2.4rem;
